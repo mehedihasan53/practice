@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    color: yellowgreen;
+    font-size: 1.5em;
+}
+
+.form{
+    text-align: center;
+    margin-top: 2%;
+}
+.form input{
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.form label{
+    font-size: 1.2em;
+    color: steelblue;
+}
