@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M4_T4_card</title>
+    <style>
+        body{
+            max-width: 1170px;
+            background-color: azure;
+            margin: 0 auto;
+            padding: 15px
+        }
+        .card-section{
+            text-align: center;
+        }
+
+        .card-continer{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+        .card:hover{
+            background-color: antiquewhite;
+        }
+        .card{
+            width: 250px;
+            border: 2px solid tomato;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+            background-color: rgb(230, 238, 243);
+            text-align: left;
+        }
+        .card h3{
+            text-align: left;
+           
+        }
+        .card strong{
+            text-align: center;
+            font-size: small
+        }
+
+        .card img{
+            width: 100%;
+
+            border-radius: 50%;  
+
+
+        }
+        .card button{
+            width: 100px;
+            padding: 10px;
+            border: 1px solid tomato;
+            background-color: aquamarine;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .card button:hover{
+            background-color: tomato
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="card-section">
+            <h2>Meet Our team</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum incidunt dolorem </p>
+
+            <div class="card-continer">
+                <div class="card">
+                    <img src="img/mehedi.jpg" alt="">
+                    <h3>Mehedi Hasan</h3>
+                    <strong>Frontend Developer</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reprehenderit.</p>
+                    <button>Read more</button>
+                </div>
+                <div class="card">
+                    <img src="img/mehedi.jpg" alt="">
+                    <h3>Mehedi Hasan</h3>
+                    <strong>Frontend Developer</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reprehenderit.</p>
+                    <button>Read more</button>
+                </div>
+                <div class="card">
+                    <img src="img/mehedi.jpg" alt="">
+                    <h3>Mehedi Hasan</h3>
+                    <strong>Frontend Developer</strong>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, reprehenderit.</p>
+                    <button>Read more</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
